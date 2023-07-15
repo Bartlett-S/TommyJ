@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+body {
+  margin: 0px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Permanent Marker", cursive;
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -10%;
+  float: left;
+  z-index: -1;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+.tiled-background {
+  background-image: url(./Assets/Tommyj.png);
+  background-size: 700px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  opacity: 0.5;
+}
+#orange {
+  display: block;
+  background-color: rgb(255, 123, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  clip-path: polygon(65% 50%, 45% 0%, 100% 0%, 100% 100%, 45% 100%);
+}
+
+#white {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.459);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  clip-path: polygon(63% 50%, 43% 0%, 45% 0%, 65% 50%, 45% 100%, 43% 100%);
+}
+
+#black {
+  display: block;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  clip-path: polygon(62% 50%, 42% 0%, 43% 0%, 63% 50%, 43% 100%, 42% 100%);
+}
+
+.name {
+  display: inline;
+  margin: 0%;
+  color: white;
+  font-size: 72px;
+  position: absolute;
+  bottom: 20px;
+  left: 2%;
+  -webkit-text-fill-color: rgb(255, 123, 0);
+  -webkit-text-stroke: 1px;
+}
