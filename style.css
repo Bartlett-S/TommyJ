@@ -12,7 +12,7 @@ body {
   font-family: "Gloria Hallelujah", cursive;
   font-family: "Permanent Marker", cursive;
   overflow: hidden;
-  background-color: red;
+  background-color: black;
 }
 
 video {
@@ -126,6 +126,7 @@ h1 {
     left: -20%;
     float: none;
     z-index: -1;
+    overflow: hidden;
   }
 
   .socials {
