@@ -134,7 +134,7 @@ h1 {
     position: fixed;
     object-fit: cover;
     max-width: 900px;
-    height: 100vh;
+    height: 50vh;
     top: 0%;
     left: 0%;
     z-index: -1;
