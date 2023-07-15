@@ -109,7 +109,7 @@ h1 {
 @media (max-width: 900px) {
   body {
     margin: 0px;
-    overflow: scroll;
+    overflow: hidden;
   }
 
   video {
@@ -117,9 +117,9 @@ h1 {
     object-fit: cover;
     width: auto;
     height: auto;
-    max-width: 900px;
+    max-width: 1100px;
     position: absolute;
-    left: 0%;
+    left: -20%;
     float: none;
     z-index: -1;
   }
@@ -135,7 +135,6 @@ h1 {
 
   .fa {
     padding: 10px;
-    margin-bottom: %;
   }
 
   #orange {
@@ -155,7 +154,7 @@ h1 {
     color: white;
     font-size: 40px;
     justify-content: center;
-    bottom: 56%;
+    bottom: 58%;
     left: 0%;
     text-align: center;
   }
