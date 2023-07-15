@@ -11,8 +11,11 @@ body {
   margin: 0px;
   font-family: "Gloria Hallelujah", cursive;
   font-family: "Permanent Marker", cursive;
-  overflow: hidden;
   background-color: black;
+  overflow: hidden;
+}
+.page {
+  overflow: hidden;
 }
 
 video {
@@ -24,6 +27,7 @@ video {
   left: -15%;
   float: left;
   z-index: -1;
+  overflow: hidden;
 }
 
 h1 {
@@ -122,7 +126,6 @@ h1 {
     object-fit: cover;
     width: auto;
     height: auto;
-    max-width: 1100px;
     position: absolute;
     left: -20%;
     float: none;
@@ -141,6 +144,8 @@ h1 {
 
   .fa {
     padding: 10px;
+    font-size: 15px;
+    width: 20px;
   }
 
   #orange {
