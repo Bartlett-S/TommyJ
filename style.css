@@ -123,7 +123,7 @@ h1 {
 
   video {
     display: block;
-    object-fit: cover;
+    object-fit: fill;
     width: auto;
     height: auto;
     position: absolute;
