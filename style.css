@@ -11,7 +11,6 @@ body {
   margin: 0px;
   font-family: "Gloria Hallelujah", cursive;
   font-family: "Permanent Marker", cursive;
-  background-color: black;
   overflow: hidden;
 }
 .page {
@@ -119,18 +118,18 @@ h1 {
 
   .page {
     overflow: hidden;
+    border: 1px red solid;
   }
 
   video {
     display: block;
-    object-fit: none;
-    width: auto;
-    height: auto;
-    position: absolute;
-    left: -20%;
-    float: none;
+    position: fixed;
+    object-fit: cover;
+    max-width: 900px;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
     z-index: -1;
-    overflow: hidden;
   }
 
   .socials {
