@@ -112,6 +112,10 @@ h1 {
     overflow: hidden;
   }
 
+  .page {
+    overflow: hidden;
+  }
+
   video {
     display: block;
     object-fit: cover;
