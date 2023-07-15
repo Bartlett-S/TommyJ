@@ -16,6 +16,7 @@ body {
 }
 
 video {
+  transform: translate3d(0, 0, 0);
   object-fit: cover;
   width: 100%;
   height: 100%;
